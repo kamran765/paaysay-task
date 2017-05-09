@@ -8,10 +8,10 @@
 			$this->client = new Google_Client();
 			$this->client->setClientId('805222795875-kt8c5nmn4ou2egcjvg51p21ufjjdbt48.apps.googleusercontent.com');
 			$this->client->setClientSecret('kF0pAHoHIbBjPZkhtyx_CrDe');
-			$this->client->setRedirectUri('http://localhost/paaysay/index.php');
+			$this->client->setRedirectUri('http://localhost/paaysay-task/index.php');
 
 			
-			$this->client->setScopes(array("https://www.googleapis.com/auth/tasks.readonly","https://www.googleapis.com/auth/plus.login","https://www.googleapis.com/auth/userinfo.email","https://www.googleapis.com/auth/userinfo.profile","https://www.googleapis.com/auth/plus.me"));
+			$this->client->setScopes('https://www.googleapis.com/auth/tasks.readonly https://www.googleapis.com/auth/tasks https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/plus.me');
 		}
 		public function cclient(){
 			return $this->client;

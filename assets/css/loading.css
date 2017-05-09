@@ -8,7 +8,6 @@
     top: 50%;
     margin-top: -100px;
     margin-left: -100px;
-
     /* Styles */
     border-radius: 50%;
     background: rgba(255,255,255,0.1);
@@ -20,9 +19,12 @@
     
     color: #444;
     text-align: center;
-    text-transform: uppercase;
     text-shadow: 0 .04em rgba(255,255,255,0.9);
     line-height: 6em;
+
+    /*custome style*/
+    z-index: 1; left: 60%;
+    display: none;
 }
 
 .wrapper:before,
