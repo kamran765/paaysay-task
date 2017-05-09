@@ -24,7 +24,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>My Website Title</title>
+	<title>Paaysay Task</title>
 	
 	<!-- Meta -->
     <meta charset="utf-8">
