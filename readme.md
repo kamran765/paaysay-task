@@ -1,9 +1,9 @@
 						*************************************
-						*	Paaysay Google Task API     	*
+						*	Paaysay Google Task API     *
 						*************************************
 						 WEB APPLICATION DEVELOPED USING PHP
 
-1. Your should clone this code in (http://localhost/paysay-task/) OR (http://localhost/paysay/)
+1. Your should clone this code in (http://localhost/paaysay-task/) OR (http://localhost/paaysay/)
 										OR
    Tell me your your project repository link So I can add into Google Api settings
 
